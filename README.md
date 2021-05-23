@@ -11,6 +11,13 @@ npm i nyc
 npm i usb
 ```
 
+# server using http-server
+```
+npm i http-server
+http-server ./web/
+```
+
+
 ## Installation
 
 Package can be installed from NPM

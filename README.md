@@ -23,7 +23,7 @@ The package depends on [node-usb](https://github.com/tessel/node-usb) that depen
 
 ### usage in web
 ```
-browserify web/src/app.js -o web/bundle.js
+browserify web/src/app.js -o web/app.js
 ```
 #### Ubuntu
 ```

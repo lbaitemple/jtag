@@ -2,7 +2,7 @@
 
 const util = require('../../lib/ftdi-webusb');
 
-const filters = { filters: [{ vendorId: 0x0403 }]};
+const filters = { filters: [{ vendorId: 0x09fb }]};
 
 const btn = document.getElementById('connect');
 

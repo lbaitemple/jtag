@@ -2,6 +2,15 @@
 
 JTAG / FTDI related JavaScript library and tools.
 
+## required software 
+```
+npm i @drom/eslint-config
+npm i eslint
+npm i mocha
+npm i nyc
+npm i usb
+```
+
 ## Installation
 
 Package can be installed from NPM
@@ -12,6 +21,10 @@ npm install jtag.ftdi --build-from-source=usb
 
 The package depends on [node-usb](https://github.com/tessel/node-usb) that depends on `libusb` library that have to be installed:
 
+### usage in web
+```
+browserify web/src/app.js -o web/bundle.js
+```
 #### Ubuntu
 ```
 sudo apt-get install build-essential libudev-dev

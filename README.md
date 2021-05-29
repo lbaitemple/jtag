@@ -30,7 +30,8 @@ The package depends on [node-usb](https://github.com/tessel/node-usb) that depen
 
 ### usage in web
 ```
-browserify web/src/app.js -o web/app.js
+browserify web/src/appjtag.js -o ./web/appjtag.js 
+http-server ./web/
 ```
 #### Ubuntu
 ```
